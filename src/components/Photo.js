@@ -1,5 +1,5 @@
 import React from 'react';
-import Avatar from './Avatar';
+
 
 
 const photoStyles = {
@@ -37,7 +37,7 @@ function Photo() {
 
                 </div>
                 <div id='self-photo' style={selfPhotoStyles}>
-                    <img id="main-avatar" style={mainAvStyle} src="https://i.dailymail.co.uk/i/pix/2014/09/19/1411087218778_wps_28_myspace_tom_8_Las_Vegas_A.jpg" />
+                    <img id="main-avatar" style={mainAvStyle} src="https://i.dailymail.co.uk/i/pix/2014/09/19/1411087218778_wps_28_myspace_tom_8_Las_Vegas_A.jpg" alt="" />
 
                 </div>
                 <p><span id="name" >Tom From MySpace</span></p>

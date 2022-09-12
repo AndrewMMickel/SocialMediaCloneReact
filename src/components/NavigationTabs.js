@@ -16,10 +16,10 @@ const navBtnStyles = {
 function NavigationTabs() {
   return (
     <React.Fragment>
-      <div id="navigation-tabs" class="col-md-6" style={navTabStyles}>
-        <button type="button" class="nav-btn" style={navBtnStyles}>Home</button>
-        <button type="button" class="nav-btn" style={navBtnStyles}>Notifications</button>
-        <button type="button" class="nav-btn" style={navBtnStyles}>Messages</button>
+      <div id="navigation-tabs" className="col-md-6" style={navTabStyles}>
+        <button type="button" className="nav-btn" style={navBtnStyles}>Home</button>
+        <button type="button" className="nav-btn" style={navBtnStyles}>Notifications</button>
+        <button type="button" className="nav-btn" style={navBtnStyles}>Messages</button>
       </div>
     </React.Fragment>
   );
